@@ -27,7 +27,7 @@ export default function Component() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-sky-900">
@@ -37,15 +37,14 @@ export default function Component() {
                   Simplifica el cuidado de tu mascota con recordatorios, consejos y herramientas personalizadas.
                 </p>
               </div>
-              <div className="space-x-4">
-                <Button className="bg-sky-500 text-white hover:bg-sky-600">Registrarse ahora</Button>
-                <Button variant="outline">Saber más</Button>
+              <div className="space-x-4">               
               </div>
+              <PawPrint className="h-20 w-20 text-sky-5000" />
             </div>
           </div>
         </section>
         <section id="how-it-works" className="w-full py-12 md:py-24 lg:py-32 bg-white">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">¿Cómo funciona EasyPet?</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
               <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -96,7 +95,7 @@ export default function Component() {
           </div>
         </section>
         <section id="benefits" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">Beneficios de usar EasyPet</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -169,7 +168,7 @@ export default function Component() {
           </div>
         </section>
         <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-sky-100">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">Lo que EasyPet puede hacer por ti</h2>
             <div className="grid gap-8 md:grid-cols-2">
               <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -208,7 +207,7 @@ export default function Component() {
           </div>
         </section>
         <section id="about" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">¿Por qué EasyPet?</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 text-center mb-8">
               Sabemos lo difícil que puede ser recordar todas las necesidades de tu mascota. Entre visitas al veterinario, vacunas, desparasitaciones y rutinas de ejercicio, es fácil sentirse abrumado.
@@ -269,7 +268,7 @@ export default function Component() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-sky-500 text-white">
-          <div className="container px-4  md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -280,7 +279,6 @@ export default function Component() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Button className="bg-white text-sky-500 hover:bg-sky-100">Registrarse ahora</Button>
               </div>
             </div>
           </div>
