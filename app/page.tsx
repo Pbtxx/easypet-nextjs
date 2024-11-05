@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { PawPrint, Bell, BookOpen, PhoneCall, Clock, Heart, Brain, Smile, Users, CheckCircle2, MapPin } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card" 
+import { PawPrint, Bell, BookOpen, PhoneCall, Clock, Heart, Brain, Smile, Users, CheckCircle2 } from "lucide-react"
 
 export default function Component() {
   return (
@@ -37,8 +36,6 @@ export default function Component() {
                   Simplifica el cuidado de tu mascota con recordatorios, consejos y herramientas personalizadas.
                 </p>
               </div>
-              <div className="space-x-4">               
-              </div>
               <PawPrint className="h-20 w-20 text-sky-5000" />
             </div>
           </div>
@@ -47,7 +44,7 @@ export default function Component() {
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">¿Cómo funciona EasyPet?</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <PawPrint className="h-6 w-6 mr-2 text-sky-500" />
@@ -58,7 +55,7 @@ export default function Component() {
                   <p>Registra a tu mascota y sus necesidades específicas</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Bell className="h-6 w-6 mr-2 text-sky-500" />
@@ -69,7 +66,7 @@ export default function Component() {
                   <p>Obtén notificaciones personalizadas para el cuidado de tu mascota</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <BookOpen className="h-6 w-6 mr-2 text-sky-500" />
@@ -80,7 +77,7 @@ export default function Component() {
                   <p>Obtén información útil y personalizada para tu mascota</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <PhoneCall className="h-6 w-6 mr-2 text-sky-500" />
@@ -98,7 +95,7 @@ export default function Component() {
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">Beneficios de usar EasyPet</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Clock className="h-6 w-6 mr-2 text-sky-500" />
@@ -109,7 +106,7 @@ export default function Component() {
                   <p>Gestiona el cuidado de tu mascota de manera eficiente</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Heart className="h-6 w-6 mr-2 text-sky-500" />
@@ -120,7 +117,7 @@ export default function Component() {
                   <p>Mantén a tu mascota en óptimas condiciones con cuidados regulares</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Smile className="h-6 w-6 mr-2 text-sky-500" />
@@ -131,7 +128,7 @@ export default function Component() {
                   <p>Organiza fácilmente todas las necesidades de tu mascota</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Heart className="h-6 w-6 mr-2 text-sky-500" />
@@ -142,7 +139,7 @@ export default function Component() {
                   <p>Dedica más tiempo de calidad a tu mascota</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <CheckCircle2 className="h-6 w-6 mr-2 text-sky-500" />
@@ -153,7 +150,7 @@ export default function Component() {
                   <p>Accede a consejos y recursos verificados por expertos</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Users className="h-6 w-6 mr-2 text-sky-500" />
@@ -171,7 +168,7 @@ export default function Component() {
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">Lo que EasyPet puede hacer por ti</h2>
             <div className="grid gap-8 md:grid-cols-2">
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300 text-justify">
                 <CardHeader>
                   <CardTitle>Crea un perfil único para tu mascota</CardTitle>
                 </CardHeader>
@@ -179,7 +176,7 @@ export default function Component() {
                   <p>Con EasyPet, puedes crear perfiles detallados de tus mascotas, incluyendo información sobre su raza, edad, historial médico, alergias y medicamentos. Esto te ayuda a tener toda la información importante de tu mascota en un solo lugar, fácilmente accesible cuando la necesites.</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300 text-justify">
                 <CardHeader>
                   <CardTitle>No olvides nunca más una cita o vacuna</CardTitle>
                 </CardHeader>
@@ -187,7 +184,7 @@ export default function Component() {
                   <p>EasyPet te envía recordatorios personalizados para vacunas, desparasitaciones, citas veterinarias y medicación. Nunca más te perderás una fecha importante para la salud de tu mascota. Nuestro sistema inteligente se adapta al calendario específico de cada mascota.</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300 text-justify">
                 <CardHeader>
                   <CardTitle>Consejos de expertos adaptados a tu mascota</CardTitle>
                 </CardHeader>
@@ -195,7 +192,7 @@ export default function Component() {
                   <p>EasyPet ofrece consejos personalizados sobre alimentación, salud, comportamiento y entrenamiento, adaptados a las necesidades específicas de cada mascota. Nuestro equipo de expertos veterinarios actualiza constantemente nuestra base de conocimientos para brindarte la mejor información.</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300 text-justify">
                 <CardHeader>
                   <CardTitle>Toda la información de tu mascota en un solo lugar</CardTitle>
                 </CardHeader>
@@ -209,18 +206,18 @@ export default function Component() {
         <section id="about" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-sky-700">¿Por qué EasyPet?</h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 text-center mb-8">
+            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 text-justify mb-8">
               Sabemos lo difícil que puede ser recordar todas las necesidades de tu mascota. Entre visitas al veterinario, vacunas, desparasitaciones y rutinas de ejercicio, es fácil sentirse abrumado.
             </p>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 text-center mb-8">
+            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 text-justify mb-8">
               EasyPet nació de la necesidad de simplificar este proceso. Nuestra plataforma te ayuda a mantener un registro completo de la salud y el cuidado de tu mascota, enviándote recordatorios oportunos y proporcionándote información valiosa, todo en un solo lugar.
             </p>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 text-center mb-12">
+            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 text-justify mb-12">
               Con EasyPet, podrás dedicar menos tiempo a la preocupación y más tiempo al amor. Porque creemos que cuidar de tu mascota debería ser una experiencia gratificante, no una tarea estresante.
             </p>
             <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-center mb-8 text-sky-700">Nuestros valores</h3>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Heart className="h-6 w-6 mr-2 text-sky-500" />
@@ -231,7 +228,7 @@ export default function Component() {
                   <p>Nuestra pasión por las mascotas impulsa todo lo que hacemos.</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <CheckCircle2 className="h-6 w-6 mr-2 text-sky-500" />
@@ -242,7 +239,7 @@ export default function Component() {
                   <p>Nos esforzamos por ser tu aliado de confianza en el cuidado de tu mascota.</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Brain className="h-6 w-6 mr-2 text-sky-500" />
@@ -253,7 +250,7 @@ export default function Component() {
                   <p>Buscamos constantemente nuevas formas de mejorar la vida de las mascotas y sus dueños.</p>
                 </CardContent>
               </Card>
-              <Card className="border-sky-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-sky-200 shadow-md hover:shadow-lg hover:transform hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Users className="h-6 w-6 mr-2 text-sky-500" />
@@ -278,14 +275,12 @@ export default function Component() {
                   Únete a la comunidad EasyPet y descubre una nueva forma de cuidar a tu compañero.
                 </p>
               </div>
-              <div className="space-x-4">
-              </div>
             </div>
           </div>
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-sky-200 bg-white">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 EasyPet. Todos los derechos reservados.</p>
+        <p className="text-xs text-gray-500">© 2024 EasyPet. Todos los derechos reservados.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <a className="text-xs hover:underline underline-offset-4" href="#">
             Términos de servicio
@@ -296,5 +291,5 @@ export default function Component() {
         </nav>
       </footer>
     </div>
-  )
+  );
 }
