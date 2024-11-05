@@ -283,10 +283,8 @@ export default function Component() {
         <p className="text-xs text-gray-500">© 2024 EasyPet. Todos los derechos reservados.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <a className="text-xs hover:underline underline-offset-4" href="#">
-            Términos de servicio
           </a>
           <a className="text-xs hover:underline underline-offset-4" href="#">
-            Política de privacidad
           </a>
         </nav>
       </footer>
